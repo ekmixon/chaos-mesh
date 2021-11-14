@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:3.13.6
 
 ARG HTTPS_PROXY
 ARG HTTP_PROXY
