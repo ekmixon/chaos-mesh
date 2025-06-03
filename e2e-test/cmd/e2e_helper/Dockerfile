@@ -7,7 +7,7 @@ COPY go.mod /src
 
 RUN go build -o test main.go
 
-FROM alpine:3.12
+FROM alpine:3.22.0
 
 COPY --from=0 /src/test /bin
 
